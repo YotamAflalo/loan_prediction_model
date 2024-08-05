@@ -17,5 +17,3 @@ jobs:
                 context: .
                 push: true
                 tags: yotam433/cictcd:${{ github.sha }}
-                cache-from: type=gha
-                cache-to: type=gha,mode=max
